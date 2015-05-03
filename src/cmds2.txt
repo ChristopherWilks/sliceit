@@ -1,0 +1,5 @@
+./coord2block ../tests//data/a2e377ac-602c-4bc2-a992-c69001149308.bam "21:9411867-9411867"
+./coord2block ../tests//data/a2e377ac-602c-4bc2-a992-c69001149308.bam "21:32434846-32434846"
+
+#need to grab the first x number of bytes to get the *full* header before you can do a range query
+#set x = 1MB to start with
