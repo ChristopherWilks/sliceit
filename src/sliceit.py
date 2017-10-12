@@ -14,9 +14,6 @@ import urllib
 import base64
 import argparse
 
-####CHANGES I'M GOING TO REVERT
-
-
 #credit for the logging and argparse code goes to Hannes Schmidt
 #https://bitbucket.org/cghub/cghub-capture-kit-info/src/9129b8e749210d4b74a428448e01a6217f94e0ee/manage.py?at=master
 log = logging.getLogger( os.path.basename( __file__ ) if __name__ == '__main__' else __name__ )
